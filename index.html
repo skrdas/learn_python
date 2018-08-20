@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="icon" type="image/gif/png" href="assets/images/logo.png"> <title>Blood dionation</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+     <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+     <link rel="stylesheet" href="assets\fonts\font-awesome\css\font-awesome.min.css">
+     <script src="assets\js\jquery-3.2.1.min.js"></script>
+     <script src="assets\js\jquery.gotop.js"></script>
+     <script src="assets\js\bootstrap.min.js"></script>
+     
+    <style>
+       
+    </style>
+    <!-- pannel -->
+    <script type="text/javascript">
+        function toggleIcon(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find(".more-less")
+        .toggleClass('glyphicon-plus glyphicon-minus');
+}
+$('.panel-group').on('hidden.bs.collapse', toggleIcon);
+$('.panel-group').on('shown.bs.collapse', toggleIcon);
+    </script>
+    <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtntop").style.display = "block";
+    } else {
+        document.getElementById("myBtntop").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+</script>
+
+<script type="text/javascript">
+    <script>
+$(document).ready(function(){
+    $('.nav').affix({offset: {top: -10} }); 
+});
+</script>
+</head>
+<body>
+   
+        <div class="top" id="top" >
+        <div class="col-lg-12  col-md-12  col-sm-12 col-xl-12 " id="top">
+            <div class="hedertop-left">
+                <p style="padding-top: 5px;">Welocme to blood donation</p>
+            </div>
+            <div class="headertop-right">
+                <div class="list-inline">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-google"></a>
+            </div>
+            </div> 
+        </div> 
+        </div> 
+             <!-- navbar  -->
+             
+   <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+  
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle"  data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="assets/images/logo.png"  ></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+       
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Home</a></li>
+       
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contactus">Contact us</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="login.html" " ><span class="glyphicon glyphicon-user">  </span> Register</a></li>
+        <li><a href="login.html"  data-target="#login" ><span class="glyphicon glyphicon-log-in">  </span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- ################################ Carasol ###################################### -->
+<div class="cor">
+         <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2" ></li>
+      <li data-target="#myCarousel" data-slide-to="3" ></li>
+  </ol>
+    <div class="carousel-inner" style="opacity: 0.7%">
+    				<div class="btn-carasol" style="margin-top: -20px;">
+					<div class="carousel-caption" >
+						<a href="#" target="_blank"><button type="button" class="btn btn-default">Post a blood Request</button></a>
+						<a href="#" target="_blank"><button type="button" class="btn btn-default">search For Volunter</button></a>
+					</div>
+				</div>
+					
+         <div class="item active">
+            <img src="assets/images/s1.jpg" alt="Los Angeles" style="width:100%;height:20%;">
+			</div>
+      <div class="item">
+        <img src="assets/images/s2.jpg" alt="Chicago" style="width:100%;height:20%;">
+      </div>
+       <div class="item">
+        <img src="assets/images/s3.jpg" alt="Chicago" style="width:100%;height:20%;">
+      </div>
+    
+    
+    </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+</div>
+</div>
+</div>
+<!-- ############################# body ########################################### -->
+   <div class="container" id="about">
+    <div class="col-md-12" style="" >
+        <h2 class="animated  bounce" >General Instruction</h2>
+        <p style="font-size: 20px;">Some brif information for Users</p>
+    </div>
+</div>
+<div class="container">
+        <div class="row" style="margin-top: 50px; ">
+        
+                    <div class="col-lg-8  col-md-8 col-sm-8 col-xl-12 " >
+                      
+                        <div class="cpannel">
+                           
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="more-less glyphicon glyphicon-plus"></i>
+                        Can I give blood ?
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                <div class="panel-body">
+                      Most people can give blood. You can give blood if you:<br><br>
+
+                              are fit and healthy<br>
+                              weigh between 7 stone 12 lbs and 25 stone, or 50kg and 160kg<br>
+                              are aged between 17 and 66 (or 70 if you have given blood before)<br>
+                              are over 70 and have given blood in the last two years<br>
+                              Men can give blood every 12 weeks and women can give blood every 16 weeks. <br>
+                              
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <i class="more-less glyphicon glyphicon-plus"></i>
+                        
+                        Check you are able to give blood
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                <div class="panel-body">
+                                        The common reasons donors should check if they can give blood are:<br><br>
+                                        if you are receiving medical or hospital treatment<br>
+                                        if you are taking medication<br>
+                                        after travelling outside of the country<br>
+                                        after having a tattoo or piercing<br>
+                                        during and after pregnancy<br>
+                                        if you feel ill<br>
+                                        if you have cancer<br>
+                                        after receiving blood, blood products or organs.
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <i class="more-less glyphicon glyphicon-plus"></i>
+                      What is the risk of infection from someone else’s blood?
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                <div class="panel-body">
+                   Which infections can be passed on?<br><br>
+                                    The main infections that can be passed on in blood are:<br>
+                                    Hepatitis B<br>
+                                    Hepatitis C<br>
+                                    HIV<br><br>
+                                    Routes of transmission<br><br>
+                                    The chance of an infection being passed on in someone else’s blood also depends on how you come into contact with the infected blood. This is known as the route of transmission. The risks associated with different routes of transmission are outlined below.<br>
+                                    Higher risk of infection<br><br>
+                                    you puncture your skin with a used needle or other sharp object that has infected blood on it<br>
+                                    someone with blood in their saliva bites you and breaks your skin
+                </div>
+            </div>
+        </div>
+         <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingFour">
+                <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        <i class="more-less glyphicon glyphicon-plus"></i>
+                     Benefits Of Blood Donation
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                <div class="panel-body">
+                    Prevents Hemochromatosis<br><br>
+                            Health benefits of blood donation include reduced risk of hemochromatosis. Hemochromatosis is a health condition that arises due to excess absorption of iron by the body. This may be inherited or may be caused due to alcoholism, anemia or other disorders. Regular blood donation may help in reducing iron overload. Make sure that the donor meets the standard blood donation eligibility criteria.<br><br>
+
+                    Anti-cancer Benefits<br><br>
+                      Blood donation helps in lowering the risk of cancer. By donating blood the iron stores in the body are maintained at healthy levels. A reduction in the iron level in the body is linked with low cancer risk.<br><br>
+                      Maintains Healthy Heart & Liver<br><br>
+                        Blood donation is beneficial in reducing the risk of heart and liver ailments caused by the iron overload in the body. Intake of iron-rich diet may increase the iron levels in the body, and since only limited proportions can be absorbed, excess iron gets stored in heart, liver, and pancreas. This, in turn, increases the risk of cirrhosis, liver failure, damage to the pancreas, and heart abnormalities like irregular heart rhythms. Blood donation helps in maintaining the iron levels and reduces the risk of various health ailments.<br><br>
+                        Weight loss<br><br>
+                        Regular blood donation reduces the weight of the donors. This is helpful for those who are obese and are at a higher risk of cardiovascular diseases and other health disorders. However, blood donation should not be very frequent and you may consult your doctor before donating blood to avoid any health issues.<br><br>
+                        Stimulates Blood Cell Production<br><br>
+                          After donating blood, the body works to replenish the blood loss. This stimulates the production of new blood cells and, in turn, helps in maintaining good health.<br>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+              
+        </div>
+        </div>
+        <div class=" col-lg-4 col-md-4  col-sm-4 col-xl-12" id="Notice">
+            <div class="notice-inner">
+                <div class="notice-upper">
+                    <div class="notice-under">
+            
+            <h3>Notice </h3>
+             <marquee direction = "up" scrollamount="3" onmouseover="stop();"  onmouseout="start();"><span>AT CASTS, WE MAKE PROFESSIONAL WEBSITES YOUR WAY AND USE OUR VAST WEBSITE DESIGN AND DEVELOPMENT EXPERIENCE TO MAKE THEM WORK THE WAY YOU WANT. THESE DAYS MOST PEOPLE LIKE TO BE ABLE TO EDIT THEIR OWN WEBSITE. SO, WE CAN OFFER SIMPLE AND POPULAR CONTENT MANAGEMENT SOLUTIONS. CASTS OFFERS A WIDE RANGE OF WEB DESIGN SERVICES, WHICH ARE EASY TO USE, MAINTAIN AND SCALE UP. OUR BEST WEBSITE DEVELOPERS AT CASTS USE A LOT OF ADD ON MODULES THAT ARE EFFECTIVELY USED FOR THE INSTALLATION AND USE BY THE CLIENTS. OUR UNPARALLELED FOCUS ON YOUR INDUSTRY WEBDESIGN COMPANIES.</span></marquee>
+            </div>
+            </div>
+            </div>  
+        </div>
+   
+</div>
+    </div>
+    <!-- #################################################         SERVICE ###############################################################################################-->
+ 
+  <div class="container" id="services" >
+				              <div class="col-md-12" style="text-align: center;" >
+				       				 <h2 class="animated  bounce"  >Services</h2>
+				   			 </div>
+				  
+  
+  
+      		<div class="row"  >
+			        <div class="col-md-3">
+			           <div class="block " >
+			             <div class="block-containt">
+			              <div class="icon">
+			              <i class="fa fa-heart-o fa-3x"></i>
+			              </div>            
+			                <span >Be a part of us</span><br>
+			              
+			            <button  type="button" href="login.html" class="btn btn-danger ">Submit</button>
+			            </div>
+			          </div>
+			        </div>
+      
+      
+      
+			        <div class="col-md-3">
+			           <div class="block">
+			             <div class="block-containt">
+			              <div class="icon">
+			              <i  class="fa fa-desktop fa-3x"></i>
+			              </div>            
+			             <a href="home.html#menu3">   <span>Post Blood Request</span><br></a>
+                      <form action="home.html#menu2">
+			              <button  type="button" class="btn btn-danger ">Submit</button></form>
+			            </div>
+			          </div>
+			        </div>
+      
+      
+      
+			        <div class="col-md-3">
+			           <div class="block">
+			             <div class="block-containt">
+			              <div class="icon">
+			              <i class="fa fa-location-arrow fa-3x"></i>
+			              </div>            
+			               <span>Contact with Volunteer</span><br>
+			              <button  type="button" class="btn btn-danger ">Submit</button>
+			            </div>
+			          </div>
+			        </div>
+      
+      
+      
+				        <div class="col-md-3">
+				           <div class="block">
+				             <div class="block-containt">
+				              <div class="icon">
+				              <i  class="fa fa-laptop fa-3x"></i>
+				              </div>            
+				                <span>Chat with Active Member</span><br>
+				              <button  type="button" class="btn btn-danger ">Submit</button>
+				            </div>
+				          </div>
+				        </div>
+      		</div>
+      
+      <div class="row" >
+			        <div class="col-md-3">
+			           <div class="block">
+			             <div class="block-containt">
+			              <div class="icon">
+			              <i class="fa fa-heart-o fa-3x"></i>
+			              </div>            
+			                <Span>Search Blood Group</Span><br>
+			              <button  type="button" class="btn btn-danger ">Submit</button>
+			            </div>
+			          </div>
+			        </div>
+      
+      
+      
+			        <div class="col-md-3">
+			           <div class="block">
+			             <div class="block-containt">
+			              <div class="icon">
+			              <i  class="fa fa-desktop fa-3x"></i>
+			              </div>            
+			                <span> SMS Request to Donor</span><br>
+			              <button  type="button" class="btn btn-danger ">Submit</button>
+			            </div>
+			          </div>
+			        </div>
+      
+      
+      
+				        <div class="col-md-3">
+				           <div class="block">
+				             <div class="block-containt">
+				              <div class="icon">
+				              <i  class="fa fa-location-arrow fa-3x"></i>
+				              </div>            
+				                <span>Certification</span><br>
+				              <button  type="button" class="btn btn-danger ">Submit</button>
+				            </div>
+				          </div>
+				        </div>
+				      
+      
+      
+					        <div class="col-md-3">
+					           <div class="block">
+					             <div class="block-containt">
+					              <div class="icon">
+					              <i  class="fa fa-laptop fa-3x"></i>
+					              </div>            
+					                <span>Quick Support</span><br>
+					              <button  type="button" class="btn btn-danger ">Submit</button>
+					            </div>
+					          </div>
+					        </div>
+				</div>
+    		</div>
+  
+    <!-- ######################################## contact us ################################################# -->
+    <div class="container" id="contactus">
+                
+                      <div id="services" class="container-fluid text-center" style="font-family: bold;"><h2 >CONTACT US</h2><p class="lead">WHAT WOULD YOU LIKE TO TELL US ABOUT?</p>
+                      </div>
+              
+        <div class="firstblock">     
+    <div class="row">
+                  <div class="col-lg-6  col-md-6 col-sm-6  col-xs-12  ">
+                <div class="block-c">
+                  <div class="well">
+              <div class="block-containt">
+              <div class="block-1" id="bk1">
+                 <h4> <span class="glyphicon glyphicon-envelope"></span> ENQUIRY/HELP FROM</h4>
+                   <p><h4>Whether you have a queastion that is not related to any medical queastion please enter  here and we will be happy to help you</h4><button type="button" class="btn btn-danger">Tell Us More</button></p> 
+                </div>
+                </div>
+              </div>
+              </div>
+            </div>
+
+  
+                        <div class="  col-lg-6  col-md-6   col-sm-6 col-xs-12  ">
+                      <div class="block-c">
+                      <div class="well">  
+                    <div class="block-containt">
+                    <div class="block-2" id="bk2">
+                        <h4><span class="glyphicon glyphicon-plus"></span> MEDICAL QUERIES</h4>
+        
+                           <p><h4>If you have any medical queastion related to whether you are eligible donate blood or not, please click on the below  link  </h4><button type="button" class="btn btn-danger">Tell Us More</button></p>
+                      </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+
+      </div></div>
+
+       <div class="firstblock"> 
+          <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  ">
+                <div class="block-c">
+                  <div class="well">
+              <div class="block-containt">
+              <div class="block-3" id="bk3">
+                 <h4><span class="glyphicon glyphicon-file"></span>SEND US YOUR STORY</h4>
+        
+                           <p><h4>Do you have an amazing story about donating or receiving blood?please share with us</h4><button type="button" class="btn btn-danger">Tell Us More</button></p> 
+                </div>
+                </div>
+              </div>
+              </div>
+            </div>
+  
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+                      <div class="block-c">
+                        <div class="well">
+                    <div class="block-containt">
+                    <div class="block-4" id="bk4">
+                        <h4><span class="glyphicon glyphicon-plus"></span> COMPLAIN/COMMENT</h4>
+        
+                           <p><h4>If you have a complain or complement belongs to our service, please click on below </h4><button type="button" class="btn btn-danger">Tell Us More</button></p> 
+                      </div>
+                      </div>
+                    </div>
+                    </div>
+                  </div></div>
+      </div>
+    </div>
+    
+
+<!-- ##########################################   Footer ####################################################### -->
+<footer class="nb-footer">
+<div class="container">
+	<div class="footer">
+			 <img src="assets/images/ft.png" class="img-responsive center-block" alt="">
+	</div>
+<div class="row">
+<div class="col-sm-12">
+<div class="about">
+   
+
+    <div class="social-media">
+        <ul class="list-inline">
+            <li><a href="#" title=""><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#" title=""><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#" title=""><i class="fa fa-google-plus"></i></a></li>
+            <li><a href="#" title=""><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="footer-info-single">
+    <h2 class="title">Help Center</h2>
+    <ul class="list-unstyled">
+        <li><a href="#" title=""><i class="fa fa-hand-o-right"></i> Helping handas for us. </a></li>
+        <li><a href="#" title=""><i class="fa fa-hand-o-right"></i> FAQ's</a></li>
+        <li><a href="#" title=""><i class="fa fa-hand-o-right"></i> Sitemap</a></li>
+        <li><a href="#" title=""><i class="fa fa-hand-o-right"></i> Fead back</a></li>
+    </ul>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="footer-info-single">
+    <h2 class="title">Important Links</h2>
+    <ul class="list-unstyled">
+        <li><a href="#" title=""><i class="fa fa-hand-o-right"></i> About Us</a></li>
+        <li><a href="#" title=""><i class="fa fa-hand-o-right"></i> Be a part of us.</a></li>
+        <li><a href="#" title=""><i class="fa fa-hand-o-right"></i> Contact Us</a></li>
+        <li><a href="#" title=""><i class="fa fa-hand-o-right"></i> Caram NGO</a></li>
+    </ul>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="footer-info-single">
+    <h2 class="title">Our Sponcers</h2>
+    <ul class="list-unstyled">
+        <li><a href="#" title=""><i class="fa fa-hand-o-right"></i> CASTS PVT. LTD</a></li>
+        <li><a href="#" title=""><i class="fa fa-hand-o-right"></i> Hond </a></li>
+        <li><a href="#" title=""><i class="fa fa-hand-o-right"></i> CARAM</a></li>
+        <li><a href="#" title=""><i class="fa fa-hand-o-right"></i> U.N(AUTO)COLLAGE</a></li>
+    </ul>
+</div>
+</div>
+
+<div class="col-md-3 col-sm-6">
+<div class="footer-info-single">
+    <h2 class="title">Contact us..</h2>
+    <ul class="list-unstyled">
+        <li><i class="fa fa-hand-o-right"></i>Bhubanswar, Odisha</li>
+        <li><i class="fa fa-hand-o-right"></i>755050, BDA Colony</li>
+       <li><i class="fa fa-hand-o-right"></i>9777519590, 9937225720</li>
+       <li><i class="fa fa-hand-o-right"></i>0861-9965780</li>
+    </ul>
+</div>
+</div>
+  </div>
+</div>
+
+<section class="copyright">
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<p>Copyright © 2017. CARAM.</p>
+</div>
+<div class="col-sm-6"></div>
+</div>
+</div>
+</section>
+</footer>
+<div id='goTop'></div>
+	<script type="text/javascript">
+	$(function(){
+		$('#goTop').goTop();
+	});
+</script>
+<!-- ############################## top button ################################## -->
+ <!-- <div class="goTop"><img src="assets/images/goTop.png">
+ </div>
+ -->
+<!-- ###################################### Model Login################################## -->
+ <div class="modal fade" id="login" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" style="text-align: center;">Blood Donation</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+		<form action="login.jsp" method="post" name="login">
+        <div class="modal-body">
+             <div class="col-xs-6">
+                 <p class="lead">Login now </p>
+                    
+
+                          <form id="loginForm" method="POST" action="/login/" novalidate="novalidate">
+                              <div class="form-group">
+                                  <label for="username" class="control-label">Username</label>
+                                  <input type="text" class="form-control" id="username" name="username" value="" required="" title="Please enter you username" placeholder="example@gmail.com">
+                                  <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="password" class="control-label">Password</label>
+                                  <input type="password" class="form-control" id="password" name="password" value="" required="" title="Please enter your password">
+                                  <span class="help-block"></span>
+                              </div>
+                              <div id="loginErrorMsg" class="alert alert-error hide">Wrong username or password</div>
+                              <div class="checkbox">
+                                  <label>
+                                      <input type="checkbox" name="remember" id="remember"> Remember login
+                                  </label>
+                                 </div>
+                              <button type="submit" class="btn btn-warning btn-block">Login</button>
+                              <a href="/forgot/" class="btn btn-warning btn-block">Help to login</a>
+                             
+                          </form>
+                      </div>
+                    
+        
+          <div class="col-xs-6">
+                      <p class="lead">Register now </p>
+                       <img src="assets/images/donateblood.png" alt="Los Angeles" style="width: 83%;;height:20%;">
+                      <p><a href="#Reg" data-target="#Reg" class="btn btn-warning btn-block">register now!</a></p>
+                  </div>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+         </div>
+    </div>
+  </div>
+</div>
+</form>
+
+<!-- ####################################### Model Register ########################### -->
+                  <!-- The Modal -->
+	<form action="register.jsp" method="post" name="reg">
+  <div class="modal fade" id="Reg" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" style="text-align: center;">Blood Donation</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="col-xs-12">
+           <p class="lead" style="color: red;">Registration now </p>
+           </div>
+          </div>
+           <div class="col-xs-6">
+                       <form id="RegistrationForm" method="POST" action="/registration/" novalidate="novalidate">
+                               <div class="form-group">
+                                  <label for="fname" class="control-label" >Full Name:</label>
+                                  <input type="text" class="form-control" id="fname" name="fname" value="" required="" title="Please enter you Fullname" placeholder="Enter Your Name">
+                                  <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="sel1">Blood Group:</label>
+                                  <select class="form-control" id="sel1" name="bg">
+                                    <option>---select a Blood Group---</option>
+                                    <option>A+</option>
+                                    <option>A-</option>
+                                    <option>A1+</option>
+                                    <option>A1-</option>
+                                    <option>A1B+</option>
+                                    <option>A1B-</option>
+                                    <option>A2+</option>
+                                    <option>A2-</option>
+                                    <option>A2B+</option>
+                                    <option>A2B-</option>
+                                    <option>AB-</option>
+                                    <option>AB-</option>
+                                    <option>B+</option>
+                                    <option>B-</option>
+                                    <option>O+</option>
+                                    <option>O-</option>
+                                  </select>
+                                </div>
+                                  <div class="form-group">
+                                  <label for="mobno" class="control-label" >Mobile No:</label>
+                                  <input type="number" class="form-control" id="mobno" name="mobno" value="" required="" title="10 digit Mobile no" placeholder="Enter Your Name">
+                                  <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="add" class="control-label">Address:</label>
+                                  <input type="add" class="form-control" id="add" name="adds" value="" required="" title="Address" placeholder="Enter Your Address">
+                                  <span class="help-block"></span>
+                              </div>
+                               </form>
+                      </div>
+                  
+        
+          <div class="col-xs-6">
+                               <div class="form-group">
+                                  <label for="pin" class="control-label">Postal Pin:</label>
+                                  <input type="number" class="form-control" id="pin" name="pin" value="" required="" title="Pin" placeholder="Enter Your Pin">
+                                  <span class="help-block"></span>
+                              </div>
+                      <div class="form-group">
+                                  <label for="username" class="control-label">Username</label>
+                                  <input type="text" class="form-control" id="username" name="uname" value="" required="" title="Please enter you username" placeholder="example@gmail.com">
+                                  <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="password" class="control-label">Password</label>
+                                  <input type="password" class="form-control" id="password" name="pass" value="" required="" title="Please enter your password">
+                                  <span class="help-block"></span>
+                              </div>
+                              <div class="form-group">
+                                  <label for="cpassword" class="control-label">Conform Password</label>
+                                  <input type="cpassword" class="form-control" id="cpassword" name="cpass" value="" required="" title=" Conform your password">
+                                  <span class="help-block"></span>
+                              </div>
+                  </div>
+        
+        <div class="col-xs-12">
+            <button type="submit" class="btn btn-warning btn-block">Submit</button>
+           </div>
+        <!-- Modal footer -->
+        <div class="modal-footer">
+               <a href="#login"></a> <button type="submit" class="btn btn-warning" style="margin-right: 200px; margin-top: 10px;">Login</button></a>
+                <button type="button" class="btn btn-danger" data-dismiss="modal" style="margin-right: 115px; margin-top: 10px;">Close</button>
+     </div> 
+    </div>
+  </div>
+  </form>
+</body>
+</html>
